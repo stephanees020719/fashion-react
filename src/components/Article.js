@@ -6,7 +6,9 @@ function Article() {
   return (
     <main>
       <article>
-        <h3>11/12/20</h3>
+      <time dateTime="2020-11-11" className="date">
+          11-11-20
+        </time>
         <h1>On the Street in Brookyn</h1>
         <img src={Image1} alt="img" />
         <p>
@@ -26,7 +28,9 @@ function Article() {
       </article>
 
       <article>
-        <h3>11/11/20</h3>
+      <time dateTime="2020-11-11" className="date">
+          11-11-20
+        </time>
         <h1>Vintage in Vogue</h1>
         <img src={Image2} alt="img" />
         <p>
